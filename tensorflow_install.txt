@@ -1,0 +1,8 @@
+在conda 环境中 激活安装tf报错：
+    imp.py  line343 in load_dynamic
+    ImportError: DLL load failed:找不到指定的模块。
+    Failed to load the native TensorFlow runtime
+尝试1：在base环境中安装同版本tensorflow-gpu尝试。依旧
+尝试2：安装其他版本。1.15.0 ok
+
+windows中的tensorflow（<=2.X）没有tensorrt？怎么处理？
